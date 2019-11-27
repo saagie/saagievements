@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" Achievements>
+          <Route exact path="/">
             <Achievements />
           </Route>
           {/* <Route exact path="/new-achievement">
