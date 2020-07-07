@@ -1,22 +1,16 @@
-import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { Achievements } from './pages/Achievements';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Achievements } from "./pages/Achievements";
 
-class App extends Component {
-  render() {
-    return (
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/">
-            <Achievements />
-          </Route>
-          {/* <Route exact path="/new-achievement">
+export default () => (
+  <BrowserRouter>
+    <Switch>
+      <Route exact path="/">
+        <Achievements />
+      </Route>
+      {/* <Route exact path="/new-achievement">
             <NewAchievement />
           </Route> */}
-        </Switch>
-      </BrowserRouter>
-    );
-  }
-}
-
-export default App;
+    </Switch>
+  </BrowserRouter>
+);

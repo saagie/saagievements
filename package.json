@@ -1,6 +1,6 @@
 {
   "name": "saagievements",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "eslint-config-airbnb": "18.0.1",
